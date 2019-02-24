@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>考试</title>
+    <style type="text/css">
+        H1{text-align:center;}
+        H2{font-family:黑体;font-size:44px;letter-spacing:5px;color:#ff0000;letter-spacing:10px;}
+        .s{text-decoration:underline;}
+        .i{font-family:宋体;font-size:24px;width:200px;font-weight:bold;background-color:#00f;}
+        ul{list-style-type:none;padding:0;margin:0;overflow:hidden;}
+        li{float:left;width:100px;}
+        a{display:block;color:#ffffff;text-decoration:none;padding:4px;text-align:center;}
+        a:hover{background-color:#ff0000;}
+        .poemAuthor{font-family:宋体;font-size:10px;}
+        .poemText{font-family:宋体;font-size:14px;letter-spacing:10px;line-height:2.5;font-weight:bold;color: #b22222;}
+        .container{width:570px;margin:0 auto;padding:20px;text-align:center;background-color:#efefda;}
+
+    </style>
+</head>
+<body>
+<H1>101班考试题</H1>
+<hr>
+<H3>考生信息</H3>
+<p>学号：
+    <span class="s">1501310127</span></p>
+<p>姓名：
+    <span class="s">张</span></p>
+<ul class="i">
+    <li><a href="http://www.gliet.edu.cn/">桂电主页</a></li>
+    <li><a href="images/p1.jpg">考题照片</a></li>
+</ul>
+<div class="container">
+    <p><H2>早发白帝城</H2></p>
+    <p class="poemAuthor">李白</p>
+    <p class="poemText">
+        朝辞白帝彩云间，千里江陵一日还。<br/>两岸猿声啼不住，轻舟已过万重山。
+    </p>
+</div>
+</body>
+</html>
